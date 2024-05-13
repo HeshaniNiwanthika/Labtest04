@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NotesSQLite</string>
+    <string name="note">Notes</string>
+    <string name="addnote">Add Notes</string>
+    <string name="et">Enter The title</string>
+    <string name="en">Edit Note</string>
+    <string name="ed">Enter The Description</string>
+    <string name="t">Title</string>
+    <string name="content">Content</string>
+    <string name="NoteApp">N</string>
+    <string name="NoteApp1">App</string>
+</resources>

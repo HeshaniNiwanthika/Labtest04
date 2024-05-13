@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddNoteActivity"
+    android:background="@drawable/bcolor">
+
+    <TextView
+        android:id="@+id/addNoteHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/addnote"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_alignTop="@+id/addNoteHeading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="22dp"
+        android:src="@drawable/outline_add_task_24" />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/addNoteHeading"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/brown_boader"
+        android:backgroundTint="@color/lightblue"
+        android:hint="@string/et"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleEditText"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/brown_boader"
+        android:backgroundTint="@color/lightblue"
+        android:gravity="top"
+        android:hint="@string/ed"
+        android:padding="12dp"
+        android:textSize="25sp" />
+
+</RelativeLayout>
